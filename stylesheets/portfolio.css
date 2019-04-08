@@ -1,0 +1,73 @@
+
+h2, h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+ul.skillList li, ul.topics li {
+  font-size: .75em;
+  line-height: 1em;
+  list-style-position: outside;
+  background: rgb(18, 72, 100);
+  display: inline-block;
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+  text-indent: 0;
+  list-style: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+
+div.flexbox {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.flexbox.heading {
+  align-items: center;
+}
+div.flexbox a {
+  padding: .2em .5em;
+  margin: .5em 0.5em; 
+  flex: right;
+  color:rgb(18, 72, 100);
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: rgb(18, 72, 100);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ 
+
+ div.flexbox a:hover {
+
+  list-style-position: outside;
+
+  background-color:  rgb(18, 72, 100);
+  color: white;
+  border-radius: 4px;
+ }
+
+article {
+  margin: 100px 0px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+img {
+
+  height: 150px;
+  margin: 0 1.5em 1.5em 2em;
+}
+
+p {
+  flex: 1;
+  margin-block-start: 0;
+}

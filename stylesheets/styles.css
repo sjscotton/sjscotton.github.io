@@ -1,0 +1,97 @@
+
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+/* body {
+  height: 100%;
+} */
+
+p a {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* nav a, .flexbox a {
+  list-style-position: outside;
+  background: rgb(18, 72, 100);
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+} */
+
+
+body {
+  display: grid;
+  grid-template:auto 1fr auto / repeat(4, 25%);
+  background: url(../images/background-2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.75;
+  font-size: 1.2em;
+
+}
+
+
+header, footer {
+  grid-column:  1 / 5;
+  background: rgb(18, 72, 100);
+}
+nav ul {
+  padding: 1em 0;
+}
+
+nav ul, footer {
+  display: flex;
+  justify-content: center;
+
+}
+main {
+  grid-row: 2;
+  grid-column: 1 / 5 ;
+  padding: 50px 75px;
+}
+
+nav li {
+  flex: 1;
+  list-style-type: none;
+  text-align: center;
+} 
+
+nav li a {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+nav li:hover a {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7cffb9+0,678cfc+100 */
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #7cffb9 0%, #678cfc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #1e5799 0%,#7cffb9 0%,#678cfc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #1e5799 0%,#7cffb9 0%,#678cfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#678cfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ 
+footer {
+  /* flex-shrink: 0; */
+  align-items: center;
+  grid-row: 3;
+  text-align: center;
+  padding: 2em 0;
+  color: #fff;
+}
+
+ul {
+  padding-inline-start: 0px;
+}

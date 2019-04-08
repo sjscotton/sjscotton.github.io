@@ -1,0 +1,55 @@
+
+
+h2 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 2em;
+  text-align: center;
+  margin: 0 0 2em 0;
+}
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 6em;
+  text-align: center;
+  margin: .5em 0 0 0;
+}
+
+ 
+main {
+  padding: 8em 3em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+main section {
+  text-align: center;
+
+}
+main a {
+  padding: .5em 1em;
+  margin: 0 0.5em;
+  list-style-position: outside;
+  border: 2px solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 6px;
+}
+
+main a:hover {
+  padding: .5em 1em;
+  margin: 0 0.5em;
+  list-style-position: outside;
+
+  background-color: #fff;
+  color: rgb(18, 72, 100);
+  border-radius: 6px;
+}
+
+img {
+  height: 340px;
+  border-radius: 50%;
+}

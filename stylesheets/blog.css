@@ -1,0 +1,26 @@
+h3 {
+  float: right;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.images img{
+
+  flex-wrap: wrap;
+
+  border-radius: 15px;
+  margin: 20px 40px 0 0;
+  border: 6px solid ;
+  border-color:   rgb(18, 72, 100);;
+}
+
+/* .images img:not(:first-of-type) {
+  margin-left: 40px;
+  margin: 0 0 0 40px;
+} */
