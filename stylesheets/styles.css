@@ -1,13 +1,14 @@
-
 h1 {
   font-family: 'Oleo Script', cursive;
   font-size: 4em;
   text-align: center;
+  color: rgb(3, 37, 53);
 }
 
-/* body {
-  height: 100%;
-} */
+h2 {
+  
+  color: rgb(3, 37, 53);
+}
 
 p a {
   text-decoration: underline;
@@ -16,16 +17,6 @@ p a {
 a {
   text-decoration: none;
 }
-
-
-/* nav a, .flexbox a {
-  list-style-position: outside;
-  background: rgb(18, 72, 100);
-  color: #fff;
-  padding: 6px;
-  border-radius: 3px;
-} */
-
 
 body {
   display: grid;
@@ -36,9 +27,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.75;
   font-size: 1.2em;
-
 }
-
 
 header, footer {
   grid-column:  1 / 5;
@@ -84,7 +73,6 @@ nav li:hover a {
 }
  
 footer {
-  /* flex-shrink: 0; */
   align-items: center;
   grid-row: 3;
   text-align: center;
